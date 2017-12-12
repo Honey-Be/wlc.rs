@@ -1,4 +1,4 @@
 [submodule "wlc-sys/wlc"]
 	path = wlc-sys/wlc
 	url = https://github.com/Cloudef/wlc.git
-	branch = master
+	tag = v0.0.11
