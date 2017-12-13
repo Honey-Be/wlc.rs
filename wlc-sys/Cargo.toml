@@ -1,7 +1,7 @@
 [package]
 name = "wlc-sys-with_elogind"
 version = "0.0.8"
-authors = ["Victor Brekenfeld (Drakulix) <github@drakulix.de>", "¿±∫¥¿Õ (Honey-Be) <yeun0908@gmail.com>"]
+authors = ["Victor Brekenfeld (Drakulix) <github@drakulix.de>", "Ïú§Î≥ëÏùµ (Honey-Be) <yeun0908@gmail.com>"]
 build = "build.rs"
 description = "Bindgen generated low-level wlc wrapper"
 documentation = "https://drakulix.github.io/wlc/wlc-sys/"
