@@ -1,11 +1,11 @@
 [package]
-name = "wlc-sys"
+name = "wlc-sys-with_elogind"
 version = "0.0.8"
 authors = ["Victor Brekenfeld (Drakulix) <github@drakulix.de>"]
 build = "build.rs"
-description = "Bindgen generated low-level wlc wrapper"
+description = "Bindgen generated low-level wlc wrapper wiht elogind support"
 documentation = "https://drakulix.github.io/wlc/wlc-sys/"
-repository = "https://github.com/Drakulix/wlc/tree/master/wlc-sys"
+repository = "https://github.com/Honey-Be/wlc.rs/tree/master/wlc-sys"
 keywords = ["wayland", "compositor", "bindings"]
 categories = ["external-ffi-bindings"]
 license = "MIT"

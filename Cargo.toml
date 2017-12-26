@@ -1,10 +1,10 @@
 [package]
-name = "wlc"
+name = "wlc-with_elogind"
 version = "2.0.1"
-authors = ["Drakulix <github@drakulix.de>"]
-description = "Safe Bindings for Cloudef's wlc (Wayland Compositor C-Library)"
-documentation = "https://drakulix.github.io/wlc.rs"
-repository = "https://github.com/Drakulix/wlc.rs"
+authors = ["윤병익 <yeun0908@gmail.com>"]
+description = "Safe Bindings for Cloudef's wlc (Wayland Compositor C-Library, with elogind support)"
+documentation = ""
+repository = "https://github.com/Honey-Be/wlc.rs"
 readme = "README.md"
 keywords = ["wayland", "compositor", "bindings"]
 categories = ["external-ffi-bindings", "gui"]
@@ -12,10 +12,10 @@ license = "MIT"
 exclude = [".travis.yml", ".rustfmt.toml", "vagga.yaml"]
 
 [badges]
-travis-ci = { repository = "Drakulix/wlc.rs" }
+travis-ci = { repository = "Honey-Be/wlc.rs" }
 
 [dependencies]
-wlc-sys = { path = "wlc-sys", version = "0.0.8" }
+wlc-sys-with_elogind = { path = "wlc-sys", version = "0.0.8" }
 lazy_static = "0.2"
 bitflags = "0.8"
 num-traits = "^0.1.35"
